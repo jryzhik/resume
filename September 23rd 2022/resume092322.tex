@@ -1,0 +1,154 @@
+\documentclass[a4paper]{article}
+    \usepackage{hyperref}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.7in,right=0.7in,bottom=0.7in,top=0.7in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {James Ryzhkov}}\\
+	\href{https://bezalelstudio.co}{bezalelstudio.co}$\cdot$ \href{mailto:james@bezalelstudio.co}{james@bezalelstudio.co}$\cdot$ \href{tel:4708294103}{(470) 829-4103} $\cdot$\href{https://www.linkedin.com/in/jamesryzhkov/}{linkedin.com/in/jamesryzhkov} \\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{Georgia Institute of Technology}\hfill Atlanta, GA\\
+BS Computer Science \textit{GPA: College 3.64} \hfill August 2021 - December 2023\\
+\vspace{2mm}
+\textbf{Southern Polytechnic University}\hfill Marietta, GA\\
+BS Computer Engineering \textit{GPA: 3.85} \hfill August 2019 - May 2021\\
+\vspace{2mm}
+\emph{\underline{Relevant Courses:}} \\
+ Data Structures \& Algorithms, Objects \& Design, Design \& Analysis-Algorithms\\
+Computer Organization \& Programming, Systems and Networks, Design of Operating Systems(2023 Spring)\\
+Database Systems, Information Security (Spring 2023), Services for Converged Networks (Spring 2023)\\
+\vspace*{2mm}
+\emph{\underline{Skills:}} \\
+\begin{tabular}{ l l }
+	Programming Languages and Frameworks: & Java, JavaScript, HTML \& CSS, React, Node.js, Swift, SwiftUI, \\& C, C\#, C++,  SpringBoot, PostgreSQL, SQL,                      \\
+	Natural Languages:                            & English, Belorussian, Russian                            \\
+\end{tabular}
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf {\href{https://bezalelstudio.co}{Bezalel Studio ®}} \hfill Cumming, GA\\
+\textit{Lead Developer \& Director} \hfill March 2021 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Manage a team to offer website services, branding, SEO \& SMM, Mobile and Computer Applications.
+	\item Handle most discussions with clients to understand requirements and business specifications while guiding the team.
+\end{itemize}
+\textbf{Georgia Tech VIP Program \textbar{} Stadium Internet of People and Things} \hfill Atlanta, GA\\
+\textit{IOS App Developer and Researcher} \hfill August 2022 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item VIP team targeted at enhancing Georgia Tech sports fans\textquotesingle{} game-day experience and ensure their security by enabling their mobile devices to access innovative infotainment and venue related information.
+	\item Research focused on integration and development for the iOS Application.
+\end{itemize}
+\textbf{BMI Inc.} \hfill Cumming, GA\\
+\textit{Information Technology Web Developer} \hfill January 2015 - May 2022\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Responsible for the electronic necessities in running the non-profit 501(c)3.
+	\item Created Dynamic systems for donation processing, custom email marketing campaigns, maintained servers.
+	\item Increased online donations by 83\% by redesigning the donation portal and improving U/X.
+\end{itemize}
+\textbf{KJ Web \& Productions} \hfill Cumming, GA\\
+\textit{Founding Director} \hfill April 2015 - September 2018\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Created 3-D Animations and Graphics for Jumbotron applications.
+	\item Managed to increase the price per second from \$5 to \$18 per second by introducing modular reuse design within Cinema4D sets.
+\end{itemize}
+
+\header{Projects}
+{\textbf{Adapt Booking}} {\sl React, PostgreSQL, SpringBoot, Java} \hfill \href{https://book.chanceyouth.org}{book.chanceyouth.org}\\
+Created a web based application that allowed event managers to have a system that could dynamically adjust during registration. Currently, working on bots to automate the check-in process.\\
+\vspace*{2mm}
+{\textbf{NFC ATM}} {\sl React, Node.js} \\
+Application that runs on an ATM machine that is configured to NFC 13.5GHz. Point system used for children events to imitate an economy with working VISA cards.\\
+\vspace*{2mm}
+{\textbf{Tale - Purposeful Management}} {\sl Express Node.js Framework, HTML, CSS, JavaScript} \\
+Simple yet powerful team management web-app that focused on binary emulated sub-team collaboration.\\
+\vspace*{2mm}
+\header{Leadership \& Activities}
+\vspace*{2mm}
+{\textbf{Chance Youth}} {\sl @chance.youth, Ukraine, Poland, Belarus, United States} \hfill \href{https://chanceyouth.org}{chanceyouth.org}\\
+Co-founded Project Chance to empower young people that have a heart for compassion, to travel overseas to conduct camps for orphans. The project focuses on sharing the Love of Christ with the unfortunate outcasts of society. This positive movement has grown to help bring financial, emotional, and spiritual comfort to hundreds of people year-round.\\
+\vspace*{2mm}
+{\textbf{GT iOS club}} {\sl SwiftUI, Firebase, Auth, Firestore, Realtime} \hfill \href{https://gtios.club/}{gtios.club/}\\
+Working on app "GT Collaboration" \\
+\\ Assignments: • Integrate 2FA • Smart Search • Swift Charts • UI Design (Figma)
+\vspace*{2mm}
+\ 
+\end{document}

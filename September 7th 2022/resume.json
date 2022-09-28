@@ -1,0 +1,188 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "projects": "Projects & Leadership",
+    "work": "Experience",
+    "awards": "Relevant Courses"
+  },
+  "basics": {
+    "name": "James Ryzhkov",
+    "phone": "(470) 829-4103",
+    "website": "linkedin.com/in/jamesryzhkov",
+    "email": "james@bezalelstudio.co",
+    "location": {
+      "address": "bezalelstudio.co"
+    }
+  },
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "location": "Atlanta, GA",
+      "area": "Computer Science",
+      "studyType": "BS",
+      "endDate": "December 2023",
+      "gpa": "college 3.64",
+      "startDate": "August 2021"
+    },
+    {
+      "institution": "Southern Polytechnic University",
+      "location": "Marietta, GA",
+      "studyType": "BS",
+      "area": "Computer Engineering",
+      "gpa": "3.85",
+      "startDate": "August 2019",
+      "endDate": "May 2021"
+    }
+  ],
+  "work": [
+    {
+      "location": "Cumming, GA",
+      "position": "Lead Developer",
+      "website": "",
+      "startDate": "March 2021",
+      "endDate": "Present",
+      "highlights": [
+        "Manage a team to offer website services, branding, SEO & SMM, Mobile and Computer Applications.",
+        "Handle most discussions with clients to understand requirements and business specifications while guiding the team."
+      ],
+      "company": "Bezalel Studio ®"
+    },
+    {
+      "highlights": [
+        "VIP team targeted at enhancing Georgia Tech sports fans' game-day experience and ensure their security by enabling their mobile devices to access innovative infotainment and venue related information.",
+        "Research focused on integration and development for the iOS Application."
+      ],
+      "company": "Georgia Tech VIP Program | Stadium Internet of People and Things",
+      "position": "IOS App Developer and Researcher",
+      "endDate": "Present",
+      "startDate": "August 2022",
+      "location": "Atlanta, GA"
+    },
+    {
+      "highlights": [
+        "Responsible for the electronic necessities in running the non-profit 501(c)3. ",
+        "Created Dynamic systems for donation processing, custom email marketing campaigns, maintained servers."
+      ],
+      "company": "BMI Inc.",
+      "position": "Information Technology Web Developer",
+      "location": "Cumming, GA",
+      "startDate": "January 2015",
+      "endDate": "May 2022"
+    },
+    {
+      "highlights": [
+        "Created 3-D Animations and Graphics for Jumbotron applications."
+      ],
+      "company": "KJ Web & Productions",
+      "position": "Founding Director",
+      "location": "Cumming, GA",
+      "startDate": "April 2015",
+      "endDate": "September 2018"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Java",
+        "React",
+        "Swift",
+        "C",
+        "C#",
+        "C++",
+        "JavaScript",
+        "HTML & CSS",
+        null,
+        null,
+        null,
+        null
+      ],
+      "name": "Programming Languages and Frameworks"
+    },
+    {
+      "keywords": [
+        "Node.js",
+        "SpringBoot",
+        "PostgreSQL",
+        "SQL"
+      ],
+      "name": " …"
+    },
+    {
+      "keywords": [
+        "English",
+        "Belorussian",
+        "Russian"
+      ],
+      "name": "Languages"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Adapt Booking",
+      "url": "booking.chanceyouth.org",
+      "keywords": [
+        "React",
+        "PostgreSQL",
+        "SpringBoot",
+        "Java"
+      ],
+      "description": "Created a web based application that allowed event managers to have a system that could dynamically adjust during registration. Currently, expanding the versatility to adapt to K-12 educational use for licensing.."
+    },
+    {
+      "keywords": [
+        "React",
+        "Node.js"
+      ],
+      "name": "NFC ATM ",
+      "description": "Application that runs on an ATM machine that is configured to NFC 13.5GHz. Point system used for children events to imitate an economy with working VISA cards."
+    },
+    {
+      "keywords": [
+        "Express Node.js Framework",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "name": "Tale - Purposeful Management",
+      "description": "Simple yet powerful team management web-app that focused on binary emulated sub-team collaboration."
+    },
+    {
+      "keywords": [
+        "@chance.youth ",
+        "Ukraine",
+        "Poland",
+        "Belarus",
+        "United States"
+      ],
+      "name": "Chance Youth",
+      "url": "chanceyouth.org",
+      "description": "Co-founded Project Chance - \"Giving a chance to those who never had\". Empower young people that have a heart for compassion, to travel overseas to conduct camps for orphans. The project focuses on sharing the Love of Christ to the unfortunate outcasts of society. This positive movement has grown to help bring financial, emotional, and spiritual comport to hundreds of people year-round."
+    }
+  ],
+  "awards": [
+    {
+      "date": "",
+      "awarder": "",
+      "summary": "Design & Analysis-Algorithms, Objects & Design, Data Structures & Algorithms",
+      "title": "Algorithm Design"
+    },
+    {
+      "title": "Computer Architecture",
+      "summary": "Computer Organization & Programming, Systems and Networks, Design of Operating Systems(2023 Spring)"
+    },
+    {
+      "summary": "Database Systems, Information Security (Spring 2023), Services for Converged Networks (Spring 2023)",
+      "title": "Other"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "projects",
+    "skills",
+    "awards"
+  ]
+}
